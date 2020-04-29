@@ -1,1 +1,16 @@
-
+<?php
+// c # var estaciones = nueva cadena [5];
+// definir una matriz de cadenas de texto
+$ estaciones = array ( "primevera" , "verano" , "otoño","invierno" );
+var_dump ( $ estaciones );
+// Imprima el valor de la primera posición de $ estaciones
+echo  $ estaciones [ 0 ];
+// Imprima todos los valores de la matriz $ estaciones uno en cada línea
+// echo $ estaciones [0]. "\ n";
+// echo $ estaciones [1]. "\ n";
+// echo $ estaciones [2]. "\ n";
+// count () sizeof ()
+$ estaciones_length = cuenta ( $ estaciones );
+para ( $ i = 0 ; $ i < $ estaciones_length ; $ i ++) {
+    echo  $ estaciones [ $ i ]. "\ n" ;
+}
